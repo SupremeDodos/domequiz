@@ -1,26 +1,130 @@
 [
     {
-      "question": "Inside which HTML element do we put the JavaScript??",
-      "choice1": "<script>",
-      "choice2": "<javascript>",
-      "choice3": "<js>",
-      "choice4": "<scripting>",
-      "answer": 1
-    },
-    {
-      "question": "What is the correct syntax for referring to an external script called 'xxx.js'?",
-      "choice1": "<script href='xxx.js'>",
-      "choice2": "<script name='xxx.js'>",
-      "choice3": "<script src='xxx.js'>",
-      "choice4": "<script file='xxx.js'>",
+      "question": "What is the same for both copper and fiber interfaces when using SFP modules? ",
+      "choice1": "They support an inline optical attenuator to enhance signal strength",
+      "choice2": "They accommodate single-mode and multi-mode in a single module",
+      "choice3": "They provide minimal interruption to services by being hot-swappable",
+      "choice4": "They offer reliable bandwidth up to 100 Mbps in half duplex mode",
       "answer": 3
     },
     {
-      "question": " How do you write 'Hello World' in an alert box?",
-      "choice1": "msgBox('Hello World');",
-      "choice2": "alertBox('Hello World');",
-      "choice3": "msg('Hello World');",
-      "choice4": "alert('Hello World');",
+      "question": "Which function is performed by the collapsed core layer in a two-tier architecture?",
+      "choice1": "enforcing routing policies",
+      "choice2": "marking interesting traffic for data policies",
+      "choice3": "applying security policies",
+      "choice4": "attaching users to the edge of the network",
+      "answer": 1
+    },
+    {
+      "question": "What is the primary function of a Layer 3 device?",
+      "choice1": "to transmit wireless traffic between hosts",
+      "choice2": "to analyze traffic and drop unauthorized traffic from the Internet",
+      "choice3": "to forward traffic within the same broadcast domain",
+      "choice4": "to pass traffic between different networks",
       "answer": 4
+    },
+    {
+      "question": "What is a recommended approach to avoid co-channel congestion while installing access points that use the 2.4 GHz frequency?",
+      "choice1": "different nonoverlapping channels",
+      "choice2": "one overlapping channel",
+      "choice3": "one nonoverlapping channel",
+      "choice4": "different overlapping channels",
+      "answer": 1
+    },
+    {
+      "question": "A manager asks a network engineer to advise which cloud service models are used so employees do not have to waste their time installing, managing, and updating software that is only used occasionally. Which cloud service model does the engineer recommend?",
+      "choice1": "infrastructure-as-a-service",
+      "choice2": "platform-as-a-service",
+      "choice3": "business process as service to support different types of service",
+      "choice4": "software-as-a-service",
+      "answer": 4
+    },
+    {
+      "question": "An engineer observes high usage on the 2.4GHz channels and lower usage on the 5GHz channels. What must be configured to allow clients to preferentially use 5GHz access points?",
+      "choice1": "Client Band Select",
+      "choice2": "Re-Anchor Roamed Clients",
+      "choice3": "OEAP Spilt Tunnel",
+      "choice4": "11ac MU-MIMO",
+      "answer": 1
+    },
+    {
+      "question": "Which networking function occurs on the data plane?",
+      "choice1": "processing inbound SSH management traffic",
+      "choice2": "sending and receiving OSPF Hello packets",
+      "choice3": "forwarding remote client/server traffic",
+      "choice4": "facilitates spanning-tree elections",
+      "answer": 3
+    },
+    {
+      "question": "Under which condition is TCP preferred over UDP?",
+      "choice1": "UDP is used when low latency is optimal, and TCP is used when latency is tolerable.",
+      "choice2": "TCP is used when dropped data is more acceptable, and UDP is used when data is accepted out-of-order.",
+      "choice3": "TCP is used when data reliability is critical, and UDP is used when missing packets are acceptable.",
+      "choice4": "UDP is used when data is highly interactive, and TCP is used when data is time-sensitive.",
+      "answer": 3
+    },
+    {
+      "question": "How do TCP and UDP differ in the way that they establish a connection between two endpoints?",
+      "choice1": "TCP uses the three-way handshake, and UDP does not guarantee message delivery.",
+      "choice2": "TCP uses synchronization packets, and UDP uses acknowledgment packets.",
+      "choice3": "UDP provides reliable message transfer, and TCP is a connectionless protocol.",
+      "choice4": "UDP uses SYN, SYN ACK, and FIN bits in the frame header while TCP uses SYN, SYN ACK, and ACK bits.",
+      "answer": 1
+    },
+    {
+      "question": "Which 802.11 frame type is Association Response?",
+      "choice1": "management",
+      "choice2": "protected frame",
+      "choice3": "action",
+      "choice4": "control",
+      "answer": 1
+    },
+    {
+      "question": "In which way does a spine-and-leaf architecture allow for scalability in a network when additional access ports are required?",
+      "choice1": "A spine switch and a leaf switch can be added with redundant connections between them.",
+      "choice2": "A spine switch can be added with at least 40 GB uplinks.",
+      "choice3": "A leaf switch can be added with connections to every spine switch.",
+      "choice4": "A leaf switch can be added with a single connection to a core spine switch.",
+      "answer": 3
+    },
+    {
+      "question": "What identifies the functionality of virtual machines?",
+      "choice1": "The hypervisor communicates on Layer 3 without the need for additional resources.",
+      "choice2": "The hypervisor virtualizes physical components including CPU, memory, and storage.",
+      "choice3": "Each hypervisor supports a single virtual machine and a single software switch.",
+      "choice4": "Virtualized servers run efficiently when physically connected to a switch that is separate from the hypervisor.",
+      "answer": 2
+    },
+    {
+      "question": "Which command automatically generates an IPv6 address from a specified IPv6 prefix and MAC address of an interface?",
+      "choice1": "ipv6 address dhcp",
+      "choice2": "ipv6 address 2001:DB8:5:112::/64 eui-64",
+      "choice3": "ipv6 address autoconfig",
+      "choice4": "ipv6 address 2001:DB8:5:112::2/64 link-local",
+      "answer": 3
+    },
+    {
+      "question": "What is the default behavior of a Layer 2 switch when a frame with an unknown destination MAC address is received?",
+      "choice1": "The Layer 2 switch forwards the packet and adds the destination MAC address to its MAC address table.",
+      "choice2": "The Layer 2 switch sends a copy of a packet to CPU for destination MAC address learning.",
+      "choice3": "The Layer 2 switch floods packets to all ports except the receiving port in the given VLAN.",
+      "choice4": "The Layer 2 switch drops the received frame.",
+      "answer": 3
+    },
+    {
+      "question": "Which IPv6 address type provides communication between subnets and cannot route on the Internet?",
+      "choice1": "link-local",
+      "choice2": "unique local",
+      "choice3": "multicast",
+      "choice4": "global unicast",
+      "answer": 2
+    },
+    {
+      "question": "What is a benefit of using a Cisco Wireless LAN Controller?",
+      "choice1": "It eliminates the need to configure each access point individually.",
+      "choice2": "Central AP management requires more complex configurations.",
+      "choice3": "Unique SSIDs cannot use the same authentication method.",
+      "choice4": "It supports autonomous and lightweight APs.",
+      "answer": 1
     }
   ]
